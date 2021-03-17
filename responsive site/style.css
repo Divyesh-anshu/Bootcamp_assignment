@@ -1,0 +1,65 @@
+body{
+    background-color:whitesmoke;
+}
+
+
+
+.carousel-inner{
+    height:80vh;
+    image-rendering:auto;
+}
+
+
+#firstcard{
+    margin-top: 10px;
+    
+}
+
+#secondcard{
+    margin-top: 20px;
+}
+
+.card>img{
+    height: 300px;
+    width: 287px;
+    
+}
+
+.card{
+    transition-property: all;
+    transition-duration: 800ms;
+  
+
+}
+
+:hover.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.card-body{
+    text-align: center;
+}
+
+#last{
+    background-color:#45a1ff;
+    border: 2px solid green;
+    color: #fff;
+    text-align: center;
+
+}
+
+#signup{
+   margin-left: 20px;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+@media (max-width:600px){
+    #carousel slide{
+        min-height: 40vh;
+    }
+}
+
